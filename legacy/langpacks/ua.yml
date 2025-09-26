@@ -422,7 +422,7 @@ legacy_info:
   _ihandle_doc_info: "Надіслати інформацію про юзербота"
   up-to-date: "<emoji document_id=5370699111492229743>😌</emoji> <b>Актуальна версія</b>"
   update_required: "<emoji document_id=5424728541650494040>😕</emoji> <b>Потрібне оновлення</b> <code>{}update</code>"
-  _cfg_cst_msg: "Кастомний текст повідомлення в info. Може містити ключові слова {me}, {version}, {build}, {prefix}, {platform}, {upd}, {uptime}, {cpu_usage}, {ram_usage}, {branch}, {hostname}, {user}, {kernel}, {os}, {label}, {neofetch}"
+  _cfg_cst_msg: "Кастомний текст повідомлення в info. Може містити ключові слова {me}, {version}, {build}, {prefix}, {platform}, {upd}, {uptime}, {cpu_usage}, {ram_usage}, {branch}, {hostname}, {user}, {kernel}, {os}, {label}"
   _cfg_cst_btn: "Кастомна кнопка в повідомленні в info. Залиш порожнім, щоб прибрати кнопку"
   _cfg_banner: "Посилання на банер-картинку"
   setinfo_no_args: "<emoji document_id=5370881342659631698>😢</emoji> <b>Тобі потрібно вказати текст для кастомного інфо</b>"
