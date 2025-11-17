@@ -105,7 +105,11 @@ class Invoice(InlineUnit):
         return self._units[unit_id]
 
     async def _invoice_inline_handler(self, inline_query: InlineQuery):
-        unit_id = inline_query.query
+        parts = inline_query.query.split()
+        if not parts:
+            await inline_query.answer([], cache_time=0)
+            return
+        unit_id = parts[0]
         if unit_id not in self._units:
             logger.error("No such unit_id in _units: %s", unit_id)
             await inline_query.answer([], cache_time=0)
